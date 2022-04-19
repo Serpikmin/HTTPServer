@@ -1,0 +1,9 @@
+Requests that will pass.
+
+GET /helloworld.txt HTTP/1.0 \n If-Match: "./mbssz-tjuf/ifmmpxpsme.uyu"
+GET /helloworld.txt HTTP/1.0 \n If-Match: "./mbssz-tjuf/ifmmpxpsme.uyu", "lmaofam"
+GET /helloworld.txt HTTP/1.0 \n If-Match: "lmaofam", "./mbssz-tjuf/ifmmpxpsme.uyu"
+
+Request that will fail.
+
+GET /helloworld.txt HTTP/1.0 \n If-Match: "lmaofam"

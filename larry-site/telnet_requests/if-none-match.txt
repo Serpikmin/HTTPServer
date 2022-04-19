@@ -1,0 +1,7 @@
+Request that will pass.
+
+GET /helloworld.txt HTTP/1.0 \n If-None-Match: "lmaofam"
+
+Request that will fail.
+
+GET /helloworld.txt HTTP/1.0 \n If-None-Match: "./mbssz-tjuf/ifmmpxpsme.uyu"

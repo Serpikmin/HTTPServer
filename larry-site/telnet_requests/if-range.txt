@@ -1,0 +1,10 @@
+Requests that will pass.
+
+GET /helloworld.txt HTTP/1.0 \n If-Range: "./mbssz-tjuf/ifmmpxpsme.uyu"
+GET /helloworld.txt HTTP/1.0 \n If-Range: Wed, 21 Oct 2015 07:28:00 GMT
+
+
+Request that will send 206 response instead of 200.
+
+GET /helloworld.txt HTTP/1.0 \n If-Range: "lmaofam"
+GET /helloworld.txt HTTP/1.0 \n If-Range: Wed, 20 Feb 2022 07:28:00 GMT
